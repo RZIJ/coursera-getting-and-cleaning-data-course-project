@@ -1,5 +1,5 @@
 ## coursera-getting-and-cleaning-data-course-project
-# Rick van Zijl
+### Rick van Zijl
 
 The upload files contain:
 - run_analysis.R script
