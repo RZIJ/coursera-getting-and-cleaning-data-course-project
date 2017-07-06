@@ -75,18 +75,39 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+## Datatransformation
+1) Read Training and Test data.
+2) Give them appropriate variable names via the features vector.
+3) Merge the subject tables to the training and test data
+4) Merge the train and test set and filter them for mean and std columns
+5) Group the dataset by Subject and Activity and caculate averages per variable.
+6) Write the tidy data set into een txt file.
 
+## Variables in dataset
+1) Subject the person performing an activity
+2) Activity the subject does
+The other variables contain either the mean or std of the x,y or z direction of the following:
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
 gravityMean
 tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
-## Datatransformation
-1) Read Training and Test data.
-2) 
-
-
 
 
