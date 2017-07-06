@@ -86,7 +86,7 @@ angle(): Angle between to vectors.
 ## Variables in dataset
 1) Subject the person performing an activity
 2) Activity the subject does
-The other variables contain either the mean or std of the x,y or z direction of the following:
+The other variables contain either the average mean or average std of the x,y or z direction of the following:
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ
